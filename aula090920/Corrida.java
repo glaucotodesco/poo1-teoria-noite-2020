@@ -23,7 +23,7 @@ public class Corrida {
             c2.mover(1);
 
             System.out.println(c1);
-            System.out.println(c2);
+          System.out.println(c2);
         }
 
 
