@@ -17,6 +17,8 @@ public class Teste3 {
         c4 = c1;
         c4.valor = 3;
         
+        
+
         System.out.println(c1.valor);
         System.out.println(c2.valor);
         System.out.println(c3.valor);

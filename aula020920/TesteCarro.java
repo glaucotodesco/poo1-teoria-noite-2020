@@ -1,8 +1,10 @@
 package aula020920;
 
+import java.io.IOException;
+
 public class TesteCarro {
-    
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
         Carro c1 = new Carro();
         
         c1.codigo = 1;
@@ -12,6 +14,7 @@ public class TesteCarro {
         System.out.println(c1);
         
 
+        Runtime.getRuntime().exec("cmd /c cls");
         c1.velocidadeKmPorHora = 50;
         System.out.println("O carro moveu " + c1.mover(5) + " metros em 5 segundos");
         System.out.println(c1);
@@ -20,7 +23,6 @@ public class TesteCarro {
         System.out.println("O carro moveu " + c1.mover(4) + " metros em 4 segundos");
         System.out.println(c1);
       
-        
 
 
 

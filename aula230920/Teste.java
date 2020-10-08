@@ -15,6 +15,9 @@ public class Teste {
 
         System.out.println("Digite seu nome: ");
         c.setNome(s.nextLine());
+        //ou
+        //String nome = s.nextLine();
+        //c.setNome(nome);
 
         System.out.println("Digite seu codigo: ");
         c.setCodigo(Integer.parseInt(s.nextLine()));
@@ -23,6 +26,10 @@ public class Teste {
         c.setSaldo(Double.parseDouble(s.nextLine()));
 
         System.out.println(c);
+
+
+
+        //Somente um close no final quando finalizar a aplicacao
         s.close();
 
 

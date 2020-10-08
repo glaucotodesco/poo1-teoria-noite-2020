@@ -15,7 +15,7 @@ public class TesteCasa {
         
         System.out.println(c1.endereco);
         System.out.println(c1.valor);
-        
+    
 
 
     }
